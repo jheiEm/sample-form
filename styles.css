@@ -58,6 +58,9 @@ h1{
   input,select{
     border-radius: 5px;
   }
+  input,select,textarea:focus {
+    outline-color: blue;
+  }
   .inline {
     margin: 0 10px 0 0;
     height: 19px;
